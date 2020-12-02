@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jingle Advance.it</title>
+        <style>
+            body {
+                position: relative;
+                }
+            
+            p {
+                font-size: 20px;
+
+            }
+
+            #logo {  
+                position: absolute;   
+                transition: transform 1500ms ease-in-out;
+                animation-duration: 3s;
+                animation-name: logo;
+                /*animation-iteration-count: infinite;*/
+                /* animation-direction: alternate; */
+                
+                }
+
+                @keyframes logo {
+                from {
+                    margin-left: 0%;
+                    margin-top: 0%;
+                }
+                to {
+                    margin-top: 15%;
+                    margin-left: 41%;
+                    transform: rotate(360deg);
+                } 
+
+        </style>
+        
+        <media>
+        <audio controls hidden autoplay>
+            <source src="jingle.mp3" type="audio/mpeg">
+            <source src="jingle.ogg" type="audio/ogg">
+            <source src="jingle.wav" type="audio/wav">
+        </audio>
+        </media>
+        
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="Advance_IT.png"/>
+        </div>
+    </body>
+</html>
