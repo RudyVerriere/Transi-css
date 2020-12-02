@@ -14,34 +14,32 @@
 
             }
 
-            #logo {  
-                position: absolute;   
-                transition: transform 1500ms ease-in-out;
-                animation-duration: 3s;
+            #logo {     
+                transition: ease-in-out;
+                animation-duration: 3.6s;
                 animation-name: logo;
-                /*animation-iteration-count: infinite;*/
-                /* animation-direction: alternate; */
-                
+                animation-iteration-count: 1;
+                justify-content: center; 
+                opacity: 0;
                 }
 
                 @keyframes logo {
                 from {
                     margin-left: 0%;
-                    margin-top: 0%;
+                    opacity: 0;
                 }
                 to {
-                    margin-top: 15%;
-                    margin-left: 41%;
-                    transform: rotate(360deg);
-                } 
+                    margin-left: 40%;
+                    opacity: 1;
+                } }
 
         </style>
         
         <media>
         <audio controls hidden autoplay>
-            <source src="jingle.mp3" type="audio/mpeg">
-            <source src="jingle.ogg" type="audio/ogg">
-            <source src="jingle.wav" type="audio/wav">
+            <source src="jingle_2.mp3" type="audio/mpeg">
+            <source src="jingle_2.ogg" type="audio/ogg">
+            <source src="jingle_2.wav" type="audio/wav">
         </audio>
         </media>
         
